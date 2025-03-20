@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Owensville Armory</title>
-<link rel="icon" href="Logo_Clear.png">
-<style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Owensville Armory</title>
+    <link rel="icon" type="image/x-icon" href="Logo.png">
     
-    /*Custom Scrollbar*/
-    /* width */
-    ::-webkit-scrollbar {
-      width: 12px;
-    }
-     
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: rgb(255, 105, 0); 
-      border-radius: 8px;
-    }
-    
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: rgb(255, 95, 0);
-    }
-    /* Custom Scrollbar End */
+    <style>
+
+        body {
+            margin:0;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .Header {
+            display:flex;
+            align-items:center;
+            justify-content:left;
+        }
+
+    /*Scrollbar*/
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgb(255, 105, 0); 
+            border-radius: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(255, 85, 0);
+        }
+    /* Scrollbar End */
 
     /* Navbar */
-    .topnav {
-      overflow: hidden;
-      background-color:rgb(255, 105, 0);
-      color:rgb(255,255,255)
-    }
+        .Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+            }
 
-    .topnav a {
-      float:left;
-      border-right:2px solid rgb(0,0,0);
-      color:rgb(255, 255, 255);
-      text-align:center;
-      padding:14px 16px;
-      text-decoration:none;
-      font-size:17px;
-    }
+            .Navbar a {
+            float:left;
+            border-right:2px solid rgb(0,0,0);
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:17px;
+            }
 
-    .topnav a:hover {
-      background-color:rgb(255, 85, 0);
-    }
+            .Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+            }
 
-    .topnav a:active {
-      background-color:rgb(255, 85, 0);
-    }
-
+            .Navbar a:active {
+            background-color:rgb(255, 85, 0);
+            }
     /* Navbar End */
 
-        /* Logo */
-    .container_logo {
-      display:flex;
-      align-items:center;
-      justify-content:left;
+     /* Hide on Mobile */
+     @media screen and (max-width: 600px)    { 
+        div.Title_Text {
+            display:none;
+        }
     }
+    /* Hide on Mobile End */
 
-    .text_logo  {
-      padding:10px;
-    }
-    /* Logo End */
-    
     </style>
-   
+
 </head>
-<body style="background-color:black;"></style>
 
-<!--Logo-->
-<div class="container_logo">
-<a href="Home.html">
-  <img src="Logo.jpg" alt="Owensville Armory" style="height:150px;width:250px;margin-Left:-8px;margin-Top:-8px" href="Home.html">	<!--Check fit on multiple devices></!-->
-</a>
-<div class="text_logo"><h1 style="color:rgb(255, 85, 0);">Owensville Armory</h1></div>
-</div>
-<!--End Logo-->
+<body style="background-color:black;">
+    <!-- Logo -->
+    <div class="Header">
+        <a  href="index.html">
+            <img style="width:300px;height:150px;" src="Logo.png" alt="Owensville Armory">
+        </a>
+        <div class="Title_Text"><h style="color:rgb(255, 85, 0);font-size:30px;font-weight:bold;padding:14px;">Owensville Armory</h></div>
+    </div>
 
-<!--Navbar-->
-<div class="topnav">
-  <a href="index.html">Home</a>
-  <a href="Brands.html">Brands</a>
-  <a href="About-Us.html">About Us</a>
-  <a href="Contact.html">Contact Us</a>
-</div>
-<!--End Navbar-->
+    <!-- Navbar -->
+    <div class="Navbar">
+        <a href="index.html">Home</a>
+        <a href="Featured.html">Featured</a>
+        <a href="Brands.html">Brands</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+    <!-- Navbar End -->
 
-<!-- delete-->
+    <!-- delete-->
 <h1>a</h1>
 <h1>a</h1>
 <h1>a</h1>
