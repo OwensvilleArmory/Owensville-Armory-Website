@@ -59,14 +59,60 @@
             .Navbar a:active {
             background-color:rgb(255, 85, 0);
             }
+
+            .M_Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+            }
+
+            .M_Navbar a {
+            float:left;
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:14px;
+            }
+
+            .M_Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+            }
+
+            .M_Navbar a:active {
+            background-color:rgb(255, 85, 0);
+            }
     /* Navbar End */
 
      /* Mobile */
-     @media screen and (max-width: 620px)    { 
+     @media screen and (max-width: 650px)    { 
         div.Title_Text {
+            scale:80%;
+        }
+        div.Logo {
             display:none;
         }
     }
+    @media screen and (min-width: 650px)    {
+        div.M_Logo {
+            display:none;
+        }
+    }
+    @media screen and (max-width: 450px)    {
+        div.Title_Text  {
+            scale:60%;
+        }
+
+        div.DNav   {
+            display:none;
+        }
+    }
+    @media screen and (min-width: 450px)    {
+        div.MNav    {
+            display:none;
+        }
+    }
+   
     /* Mobile End */
 
     </style>
@@ -77,19 +123,26 @@
     <!-- Logo -->
     <div class="Header">
         <a  href="index.html">
-            <img style="width:300px;height:150px;" src="Logo.png" alt="Owensville Armory">
+            <div class="Logo"><img style="width:300px;height:150px;" src="Logo.png" alt="Owensville Armory"></div>
+            <div class="M_Logo"><img style="width:100px;height:50px;" src="Logo.png" alt="Owensville Armory"></div>
         </a>
         <div class="Title_Text"><h style="color:rgb(255, 85, 0);font-size:30px;font-weight:bold;padding:14px;">Owensville Armory</h></div>
     </div>
 
     <!-- Navbar -->
-    <div class="Navbar">
+    <div class="DNav"><div class="Navbar">
         <a href="index.html">Home</a>
-        
         <a href="Brands.html">Brands</a>
         <a href="About.html">About Us</a>
         <a href="Contact.html">Contact</a>
-    </div>
+    </div></div>
+
+    <div class="MNav"><div class="M_Navbar">
+        <a href="index.html">Home</a>
+        <a href="Brands.html">Brands</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+    </div></div>
     <!-- Navbar End -->
 
     <!-- delete-->
