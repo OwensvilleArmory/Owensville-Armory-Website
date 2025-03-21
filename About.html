@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Owensville Armory</title>
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+    
+    <style>
+
+        body {
+            margin:0;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .Header {
+            display:flex;
+            align-items:center;
+            justify-content:left;
+        }
+
+    /*Scrollbar*/
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgb(255, 105, 0); 
+            border-radius: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(255, 85, 0);
+        }
+    /* Scrollbar End */
+
+    /* Navbar */
+        .Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+            }
+
+            .Navbar a {
+            float:left;
+            border-right:2px solid rgb(0,0,0);
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:17px;
+            }
+
+            .Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+            }
+
+            .Navbar a:active {
+            background-color:rgb(255, 85, 0);
+            }
+
+            .M_Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+            }
+
+            .M_Navbar a {
+            float:left;
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:14px;
+            }
+
+            .M_Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+            }
+
+            .M_Navbar a:active {
+            background-color:rgb(255, 85, 0);
+            }
+    /* Navbar End */
+
+     /* Mobile */
+     @media screen and (max-width:670px)    {
+        div.Body_Text   {
+            padding-left:10px;
+            padding-right:10px;
+            padding-top:0px;
+        }
+     }
+     @media screen and (max-width: 650px)    { 
+        div.Title_Text {
+            scale:80%;
+        }
+        div.Logo {
+            display:none;
+        }
+    }
+    @media screen and (min-width: 650px)    {
+        div.M_Logo {
+            display:none;
+        }
+    }
+    @media screen and (max-width: 450px)    {
+        div.Title_Text  {
+            scale:60%;
+        }
+
+        div.DNav   {
+            display:none;
+        }
+    }
+    @media screen and (min-width: 451px)    {
+        div.MNav    {
+            display:none;
+        }
+    }
+   
+    /* Mobile End */
+
+    .Main   {
+        padding-left:3%;
+        padding-right:3%;
+        padding-top:10px;
+    }
+
+    </style>
+
+</head>
+
+<body style="background-color:black;">
+    <!-- Logo -->
+    <div class="Header">
+        <a  href="index.html">
+            <div class="Logo"><img style="width:300px;height:150px;" src="Logo.png" alt="Owensville Armory"></div>
+            <div class="M_Logo"><img style="width:100px;height:50px;" src="Logo.png" alt="Owensville Armory"></div>
+        </a>
+        <div class="Title_Text"><h style="color:rgb(255, 85, 0);font-size:30px;font-weight:bold;padding:14px;">Owensville Armory</h></div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="DNav"><div class="Navbar">
+        <a href="index.html">Home</a>
+        <a href="Brands.html">Brands</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+    </div></div>
+
+    <div class="MNav"><div class="M_Navbar">
+        <a href="index.html">Home</a>
+        <a href="Brands.html">Brands</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+    </div></div>
+    <!-- Navbar End -->
+
+    <div class="Body_Text"><div class="Main"><p style="color:rgb(255, 85, 0);font-size:20px;font-weight:bold;">We are a small, veteran owned, family run gun shop. We look forward to supplying Owensville and neighboring towns with guns, ammunition, and anything else firearm related. We are also gun enthusiasts and avid shooters who are tired of unreasonable prices. We look to keep our prices as low as possible to benefit you.</p></div></div>
+    <div class="Main"><p style="color:rgb(255, 85, 0);font-size:20px;font-weight:bold;">Firearms are coming as soon as our FFL is approved. Supressors will be on their way shortly after.</p></div>
+</body>
+</html>
