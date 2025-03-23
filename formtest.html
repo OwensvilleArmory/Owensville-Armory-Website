@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> <!-- ADDED -->
+
+    <title>Owensville Armory</title>
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+    <link rel="stylesheet" href="formcarry-form.css" /> <!-- ADDED -->
+    
+    <style>
+
+        body {
+            margin:0;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Main -->
+    <div class="formcarry-container">
+        <form action="form-process.php" method="POST" class="formcarry-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="fullName" placeholder="Your name" />
+  
+          <label for="email">Email <a style="color:red;">*</a></label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required />
+
+          <label for="tel">Phone Number</label>
+          <input type="tel" id="tel" name="tel" placeholder="If phone contact is prefered" />
+  
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Tell us something"></textarea>
+  
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    <!-- Main End -->
+
+</body>
+</html>
