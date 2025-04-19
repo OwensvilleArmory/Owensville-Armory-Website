@@ -130,7 +130,8 @@
             .Featured_Caption {
               color:white;
               text-align:center;
-              scale:150%;
+              /*scale:150%;*/
+              font-size:32px;
             }
 
             .Temp_Image {
@@ -144,6 +145,11 @@
               margin-top:-12px;
               margin-bottom:-18px;
             }
+
+            .Temp_Images    {
+                margin-top:-70px;
+                margin-bottom:-40px;
+            }
   /* Featured End */          
 
      /* Mobile */
@@ -154,8 +160,11 @@
         div.Logo {
             display:none;
         }
+        div.Featured_Caption    {
+            font-size:20px;
+        }
     }
-    @media screen and (min-width: 650px)    {
+    @media screen and (min-width: 651px)    {
         div.M_Logo {
             display:none;
         }
@@ -172,8 +181,9 @@
             font-size:30px;
         }
 
-        .prev,.next {margin-left:20px;margin-right:20px;font-size:20px;}
         .Body_Text  {font-size:12px;}
+
+        div.Featured_Caption   {font-size:12px;}
     }
     @media screen and (min-width: 451px)    {
         div.MNav    {
@@ -222,7 +232,7 @@
     <div>
       <div class="Temp_Image"></div>
        <div class="Temp_Caption"><p>Firearms are here!</p></div>
-        <img src="Featured_Products/L1.png" alt="sks" style="width:100%; overflow:hidden;"></img>
+        <div class="Temp_Images"><img src="Logo.png" alt="Logo" style="width:100%;scale:50%;overflow:hidden;"></img></div>
       </div>
     </div>
     <!--.TEMP End-->
@@ -232,26 +242,26 @@
     <div class="Featured_Container">
       <!--L1-->
       <div>
-        <div class="Featured_Caption"><p>SKS</p></div>
-        <img src="Featured_Products/L1.png" alt="sks" style="width:100%;"></img>
+        <div class="Featured_Caption"><p>M&P-15 Sport 3 With Vortex Strikefire 2</p></div>
+        <img src="Featured_Products/L1.png" alt="M&P-15 Sport 3 With Vortex Strikefire 2" style="width:100%;"></img>
       </div>
 
       <!--R1-->
       <div>
-        <div class="Featured_Caption"><p>AR-15s</p></div>
-        <img src="Featured_Products/R1.png" alt="sks"style="width:100%;"></img>
+        <div class="Featured_Caption"><p>Used guns</p></div>
+        <img src="Featured_Products/R1.png" alt="Used guns"style="width:100%;"></img>
       </div>
 
       <!--L2-->
       <div>
-        <div class="Featured_Caption"><p>SKS</p></div>
-        <img src="Featured_Products/L2.png" alt="sks" style="width:100%;"></img>
+        <div class="Featured_Caption"><p>S&W Bodyguard 2.0</p></div>
+        <img src="Featured_Products/L2.png" alt="S&W Bodyguard 2.0" style="width:100%;"></img>
       </div>
 
       <!--R2-->
       <div>
-        <div class="Featured_Caption"><p>AR-15s</p></div>
-        <img src="Featured_Products/R2.png" alt="sks"style="width:100%;"></img>
+        <div class="Featured_Caption"><p>FN 509</p></div>
+        <img src="Featured_Products/R2.png" alt="FN 509"style="width:100%;"></img>
       </div>
 
     </div>
