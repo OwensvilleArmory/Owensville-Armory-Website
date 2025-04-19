@@ -31,6 +31,23 @@
             line-height:.7em;
         }
 
+    /* Banner Notifier */
+    .Banner {
+        height:50px;
+        position:relative;
+        background-color:rgb(255, 105, 0);
+        margin-top:-16px;
+        display:none;
+    }
+
+    .Banner_Text  {
+      /*top:50%;*/
+      /*font-size:32px;*/
+      font-weight:bold;
+      text-align:center;
+    }
+    /* Banner Notifier End*/
+
     /*Scrollbar*/
         ::-webkit-scrollbar {
             width: 12px;
@@ -95,6 +112,40 @@
             }
     /* Navbar End */
 
+  /* Featured */
+            .Featured_Title {
+                color:rgb(255, 85, 0);
+                font-weight:bolder;
+                font-size:40px;
+                justify-self:center;
+                margin:10px;
+            }
+
+           .Featured_Container  {
+              display:grid;
+              grid-template-columns: 50% 50%;
+              overflow:hidden;
+            }
+
+            .Featured_Caption {
+              color:white;
+              text-align:center;
+              scale:150%;
+            }
+
+            .Temp_Image {
+              overflow:hidden;
+            }
+
+            .Temp_Caption {
+              color:white;
+              text-align:center;
+              font-size:32px;
+              margin-top:-12px;
+              margin-bottom:-18px;
+            }
+  /* Featured End */          
+
      /* Mobile */
      @media screen and (max-width: 650px)    { 
         div.Title_Text {
@@ -104,7 +155,7 @@
             display:none;
         }
     }
-    @media screen and (min-width: 651px)    {
+    @media screen and (min-width: 650px)    {
         div.M_Logo {
             display:none;
         }
@@ -117,6 +168,12 @@
         div.DNav   {
             display:none;
         }
+        .Featured_Title {
+            font-size:30px;
+        }
+
+        .prev,.next {margin-left:20px;margin-right:20px;font-size:20px;}
+        .Body_Text  {font-size:12px;}
     }
     @media screen and (min-width: 451px)    {
         div.MNav    {
@@ -154,38 +211,52 @@
     </div></div>
     <!-- Navbar End -->
 
-    <!-- delete-->
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<h1>a</h1>
-<!--end delete-->
+    <!--Banner Notifier-->
+    <div class="Banner">
+        <div class="Banner_Text"><p>FIREARMS ARE HERE!</p></div>
+    </div>
+    <!--Banner Notifier End-->
+
+    <!-- Main -->
+         <!--.TEMP-->
+    <div>
+      <div class="Temp_Image"></div>
+       <div class="Temp_Caption"><p>Firearms are here!</p></div>
+        <img src="Featured_Products/L1.png" alt="sks" style="width:100%; overflow:hidden;"></img>
+      </div>
+    </div>
+    <!--.TEMP End-->
+
+    <p class="Featured_Title">Featured Products</p>
+
+    <div class="Featured_Container">
+      <!--L1-->
+      <div>
+        <div class="Featured_Caption"><p>SKS</p></div>
+        <img src="Featured_Products/L1.png" alt="sks" style="width:100%;"></img>
+      </div>
+
+      <!--R1-->
+      <div>
+        <div class="Featured_Caption"><p>AR-15s</p></div>
+        <img src="Featured_Products/R1.png" alt="sks"style="width:100%;"></img>
+      </div>
+
+      <!--L2-->
+      <div>
+        <div class="Featured_Caption"><p>SKS</p></div>
+        <img src="Featured_Products/L2.png" alt="sks" style="width:100%;"></img>
+      </div>
+
+      <!--R2-->
+      <div>
+        <div class="Featured_Caption"><p>AR-15s</p></div>
+        <img src="Featured_Products/R2.png" alt="sks"style="width:100%;"></img>
+      </div>
+
+    </div>
+    <br><br><br>
+  <!-- Main End -->
 
 <!-- Footer -->
 <div class="Footer">
