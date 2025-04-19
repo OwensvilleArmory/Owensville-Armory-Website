@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>About Us - Owensville Armory</title>
+    <title>Contact - Owensville Armory</title>
     <link rel="icon" type="image/x-icon" href="Logo.png">
     
     <style>
@@ -95,20 +95,19 @@
             }
     /* Navbar End */
 
+    /* Links */
+            a:link  {
+                color:rgb(255, 255, 255);
+                text-decoration:none;
+            }
+
+            a:visited   {
+                color:rgb(255, 255, 255);
+                text-decoration:none;
+            }
+    /* Links End */
+
      /* Mobile */
-     @media screen and (max-width:670px)    {
-        div.Body_Text   {
-            /*padding-left:10px;
-            padding-right:10px;
-            padding-top:0px;*/
-            display:none;
-        }
-    }
-     @media screen and (min-width:671px)    {
-        div.MBody_Text  {
-            display:none;    
-        }
-     }  
      @media screen and (max-width: 650px)    { 
         div.Title_Text {
             scale:80%;
@@ -116,9 +115,16 @@
         div.Logo {
             display:none;
         }
+
+        div.Desktop_Content {
+            display:none;
+        }
     }
-    @media screen and (min-width: 650px)    {
+    @media screen and (min-width: 651px)    {
         div.M_Logo {
+            display:none;
+        }
+        div.Mobile_Content  {
             display:none;
         }
     }
@@ -139,10 +145,20 @@
    
     /* Mobile End */
 
-    .Main   {
-        padding-left:3%;
-        padding-right:3%;
-        padding-top:10px;
+    .Desktop_Content    {
+        text-align:center;
+        font-size:20px;
+        font-weight:bold;
+        color:rgb(255, 255, 255);
+        line-height:2em;
+    }
+
+    .Mobile_Content     {
+        text-align:center;
+        font-size:20px;
+        font-weight:bold;
+        color:rgb(255, 255, 255);
+        line-height:2em;
     }
 
     </style>
@@ -173,33 +189,46 @@
     </div></div>
     <!-- Navbar End -->
 
-    <div class="Body_Text"><div class="Main"><p style="color:rgb(255, 85, 0);font-size:20px;font-weight:bold;">We are a small, veteran owned, family run gun shop. We look forward to supplying Owensville and neighboring towns with guns, ammunition, and anything else firearm related. We also have a selection of knives and fishing supplies. We are gun enthusiasts and avid shooters who are tired of unreasonable prices. We look to keep our prices as low as possible to benefit you.</p></div></div>
-    <div class="MBody_Text"><div class="Main"><p style="color:rgb(255, 85, 0);font-size:20px;font-weight:bold;">We are a small, veteran owned, family run gun shop. We look forward to supplying Owensville and neighboring towns with guns, ammunition, and anything else firearm related. We also have a selection of knives and fishing supplies. </p></div></div>
-    <div class="MBody_Text"><div class="Main"><p style="color:rgb(255, 85, 0);font-size:20px;font-weight:bold;">We are gun enthusiasts and avid shooters who are tired of unreasonable prices. We look to keep our prices as low as possible to benefit you.</p></div></div>
+    <!-- Main -->
+    <div class="Desktop_Content">
+        <p>Call or text us at (573)-241-1794</p>
+        <p><a href="mailto:owensvillearmory@gmail.com">owensvillearmory@gmail.com</a></p>
+        <p>Come visit us at 1210 W. Highway 28</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.598248735385!2d-91.52327802387282!3d38.33513327968371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87dbeb5db86b0989%3A0xfb28e2999cc3572e!2sOwensville%20Armory!5e0!3m2!1sen!2sus!4v1742755583556!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
-    <!-- Footer -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="Mobile_Content">
+        <p><a style="font-weight:bolder;" href="tel:+15732411794">Call</a> or <a style="font-weight:bolder;" href="sms:+15732411794">text</a> us at (573)-241-1794</p>
+        <p><a href="mailto:owensvillearmory@gmail.com">owensvillearmory@gmail.com</a></p>
+        <p style="font-size:19px;">Come visit us at 1210 W. Highway 28</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.598248735385!2d-91.52327802387282!3d38.33513327968371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87dbeb5db86b0989%3A0xfb28e2999cc3572e!2sOwensville%20Armory!5e0!3m2!1sen!2sus!4v1742755583556!5m2!1sen!2sus" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Main End -->
+
+<!-- Footer -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <div class="Footer">
-    <p style="color:rgb(255, 255, 255);">573-241-1794</p>
-    <p style="color:rgb(255, 255, 255);">owensvillearmory@gmail.com</p>
-    <p style="color:rgb(255, 255, 255);">1210 W. Highway 28, Owensville</p>
-    <div class="Hours">
-         <br>
-         <p style="color:rgb(255, 255, 255);">Hours:</p>
-         <p style="color:rgb(255, 255, 255);">Sunday: Noon - 5:00 PM</p>
-         <p style="color:rgb(255, 255, 255);">Monday: Closed</p>
-         <p style="color:rgb(255, 255, 255);">Tuesday: Closed</p>
-         <p style="color:rgb(255, 255, 255);">Wednesday: 10:00 AM - 6:00 PM</p>
-         <p style="color:rgb(255, 255, 255);">Thursday: 10:00 AM - 6:00 PM</p>
-         <p style="color:rgb(255, 255, 255);">Friday: 10:00 AM - 7:00 PM</p>
-         <p style="color:rgb(255, 255, 255);">Saturday: 10:00 AM - 7:00 PM</p>
-     </div>
- </div>
- <!-- Footer End -->
+   <p style="color:rgb(255, 255, 255);">573-241-1794</p>
+   <p style="color:rgb(255, 255, 255);">owensvillearmory@gmail.com</p>
+   <p style="color:rgb(255, 255, 255);">1210 W. Highway 28, Owensville</p>
+   <div class="Hours">
+        <br>
+        <p style="color:rgb(255, 255, 255);">Hours:</p>
+        <p style="color:rgb(255, 255, 255);">Sunday: Noon - 5:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Monday: Closed</p>
+        <p style="color:rgb(255, 255, 255);">Tuesday: Closed</p>
+        <p style="color:rgb(255, 255, 255);">Wednesday: 10:00 AM - 6:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Thursday: 10:00 AM - 6:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Friday: 10:00 AM - 7:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Saturday: 10:00 AM - 7:00 PM</p>
+    </div>
+</div>
+<!-- Footer End -->
+
 </body>
 </html>
