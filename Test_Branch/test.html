@@ -1,1 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Owensville Armory</title>
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+    
+    <style>
+
+        body {
+            margin:0;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .Header {
+            display:flex;
+            align-items:center;
+            justify-content:left;
+        }
+
+        .Footer {
+            text-align:center;
+            /*display:flex;*/
+            /*align-items:center;*/
+            /*justify-content:center;*/
+        }
+
+        .Hours  {
+            line-height:.7em;
+        }
+
+    /*Scrollbar*/
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgb(255, 105, 0); 
+            border-radius: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(255, 85, 0);
+        }
+    /* Scrollbar End */
+
+    /* Navbar */
+        .Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+            }
+
+            .Navbar a {
+            float:left;
+            border-right:2px solid rgb(0,0,0);
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:17px;
+            }
+
+            .Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+            }
+
+            .Navbar a:active {
+            background-color:rgb(255, 85, 0);
+            }
+
+            .M_Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+            }
+
+            .M_Navbar a {
+            float:left;
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:14px;
+            }
+
+            .M_Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+            }
+
+            .M_Navbar a:active {
+            background-color:rgb(255, 85, 0);
+            }
+    /* Navbar End */
+
+  /* Featured */
+            .Featured_Title {
+                color:rgb(255, 85, 0);
+                font-weight:bolder;
+                font-size:40px;
+                justify-self:center;
+                margin:10px;
+            }
+
+           .Featured_Container  {
+              display:grid;
+              grid-template-columns: 50% 50%;
+              overflow:hidden;
+            }
+
+            .Featured_Caption {
+              color:white;
+              text-align:center;
+              font-size:32px;
+            }
+
+            .Featured_Description   {
+                color:white;
+                text-align:center;
+                font-size:24px;
+                /*padding-top:-12px;
+                padding-bottom:-16px;*/
+                margin-top:-6px;
+                margin-bottom:-6px;
+            }
+
+  /* Featured End */          
+
+     /* Mobile */
+     @media screen and (max-width: 650px)    { 
+        div.Title_Text {
+            scale:80%;
+        }
+        div.Logo {
+            display:none;
+        }
+        div.Featured_Caption    {
+            font-size:20px;
+        }
+        div.Featured_Description    {
+            font-size:16px;
+        }
+    }
+    @media screen and (min-width: 651px)    {
+        div.M_Logo {
+            display:none;
+        }
+    }
+    @media screen and (max-width: 450px)    {
+        div.Title_Text  {
+            scale:60%;
+        }
+
+        div.DNav   {
+            display:none;
+        }
+        .Featured_Title {
+            font-size:30px;
+        }
+
+        .Body_Text  {font-size:12px;}
+
+        div.Featured_Caption   {font-size:12px;}
+
+        div.Featured_Description  {font-size:10px;}
+    }
+    @media screen and (min-width: 451px)    {
+        div.MNav    {
+            display:none;
+        }
+    }
+   
+    /* Mobile End */
+
+    </style>
+
+</head>
+
+<body style="background-color:black;">
+    <!-- Logo -->
+    <div class="Header">
+        <a  href="index.html">
+            <div class="Logo"><img style="width:300px;height:150px;" src="Logo.png" alt="Owensville Armory"></div>
+            <div class="M_Logo"><img style="width:100px;height:50px;" src="Logo.png" alt="Owensville Armory"></div>
+        </a>
+        <div class="Title_Text"><h style="color:rgb(255, 85, 0);font-size:30px;font-weight:bold;padding:14px;">Owensville Armory</h></div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="DNav"><div class="Navbar">
+        <a href="index.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+    </div></div>
+
+    <div class="MNav"><div class="M_Navbar">
+        <a href="index.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">Contact</a>
+    </div></div>
+    <!-- Navbar End -->
+
+    <!-- Main -->
+
+    <p class="Featured_Title">Featured Products</p>
+
+    <div class="Featured_Container">
+      <!--L1-->
+      <div>
+        <div class="Featured_Caption"><p>M&P-15 Sport III</p></div>
+        <div class="Featured_Description"><p>Includes Vortex Strikefire II</p></div>
+        <img src="Featured_Products/L1.png" alt="M&P-15 Sport 3 With Vortex Strikefire 2" style="width:100%;"></img>
+      </div>
+
+      <!--R1-->
+      <div>
+        <div class="Featured_Caption"><p>Century Arms AK-47</p></div>
+        <div class="Featured_Description"><p>In store today</p></div>
+        <img src="Featured_Products/R1.png" alt="Century Arms AK-47"style="width:100%;"></img>
+      </div>
+
+      <!--L2-->
+      <div>
+        <div class="Featured_Caption"><p>Springfield Hellcat Pro</p></div>
+        <div class="Featured_Description"><p>5 mags, range bag, and CT optic</p></div>
+        <img src="Featured_Products/L2.png" alt="Hellcat Pro Range Kit With CT Optic" style="width:100%;"></img>
+      </div>
+
+      <!--R2-->
+      <div>
+        <div class="Featured_Caption"><p>Aguila Colibri in stock!</p></div>
+        <div class="Featured_Description"><p>Limited quantities avalible!</p></div>
+        <img src="Featured_Products/R2.png" alt="Aguila Colibri"style="width:100%;"></img>
+      </div>
+
+    </div>
+    <br><br><br>
+  <!-- Main End -->
+
+<!-- Footer -->
+<div class="Footer">
+   <p style="color:rgb(255, 255, 255);">573-241-1794</p>
+   <p style="color:rgb(255, 255, 255);">owensvillearmory@gmail.com</p>
+   <p style="color:rgb(255, 255, 255);">1210 W. Highway 28, Owensville</p>
+   <div class="Hours">
+        <br>
+        <p style="color:rgb(255, 255, 255);">Hours:</p>
+        <p style="color:rgb(255, 255, 255);">Sunday: Noon - 5:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Monday: Closed</p>
+        <p style="color:rgb(255, 255, 255);">Tuesday: Closed</p>
+        <p style="color:rgb(255, 255, 255);">Wednesday: 10:00 AM - 6:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Thursday: 10:00 AM - 6:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Friday: 10:00 AM - 7:00 PM</p>
+        <p style="color:rgb(255, 255, 255);">Saturday: 10:00 AM - 7:00 PM</p>
+    </div>
+</div>
+<!-- Footer End -->
+
+</body>
+</html>
