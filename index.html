@@ -139,7 +139,17 @@
                 margin-bottom:-6px;
             }
 
-  /* Featured End */          
+  /* Featured End */   
+  
+  /* Bottom Notifier */
+.Bottom_Notifier {
+                color:rgb(255, 85, 0);
+                font-weight:bolder;
+                font-size:40px;
+                text-align:center;
+                justify-self:center;
+            }
+  /* Bottom Notifier End */
 
      /* Mobile */
      @media screen and (max-width: 650px)    { 
@@ -163,7 +173,8 @@
     }
     @media screen and (max-width: 450px)    {
         div.Title_Text  {
-            scale:60%;
+            /*scale:60%;*/
+            display:none;
         }
 
         div.DNav   {
@@ -171,6 +182,10 @@
         }
         .Featured_Title {
             font-size:30px;
+        }
+
+        .Bottom_Notifier {
+            scale:80%;
         }
 
         .Body_Text  {font-size:12px;}
@@ -216,6 +231,7 @@
     <!-- Navbar End -->
 
     <!-- Banner -->
+    <!--<div class="Banner">We will be closed July 4th</div>-->
     <!-- Banner End -->
 
     <!-- Main -->
@@ -254,6 +270,10 @@
     </div>
     <br><br><br>
   <!-- Main End -->
+
+  <!-- Bottom Notifier -->
+    <div class="Bottom_Notifier"><p>We sell, buy, trade, and consign</p></div>
+  <!-- Bottom Notifier End -->
 
 <!-- Footer -->
 <div class="Footer">
