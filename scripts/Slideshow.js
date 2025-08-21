@@ -1,11 +1,11 @@
 const SlideQuery = document.querySelector('.Image');
         
 const ImgArray = [
-  "https://owensvillearmory.com/Featured_Products/L1.png",
-  "https://owensvillearmory.com/Featured_Products/L2.png",
-  "https://owensvillearmory.com/Featured_Products/R2.png",
-  "https://owensvillearmory.com/Featured_Products/R1.png",
-   "https://owensvillearmory.com/Logo.png",
+  "https://owensvillearmory.com/Featured_Products/",
+  "https://owensvillearmory.com/Featured_Products/",
+  "https://owensvillearmory.com/Featured_Products/",
+  "https://owensvillearmory.com/Featured_Products/",
+  "https://owensvillearmory.com/Featured_Products/Desert_Eagle_L5.png",
 ]
 
 let iMax = ImgArray.length-1;//To prevent iMax from indexing to 1 instead of 0
