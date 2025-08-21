@@ -1,0 +1,139 @@
+body {
+            margin:0;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .Header {
+            display:flex;
+            align-items:center;
+            justify-content:left;
+        }
+
+        .Footer {
+            text-align:center;
+        }
+
+        .Hours  {
+            line-height:.7em;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgb(255, 105, 0); 
+            border-radius: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(255, 85, 0);
+        }
+
+        .Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+        }
+
+        .Navbar a {
+            float:left;
+            border-right:2px solid rgb(0,0,0);
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:17px;
+        }
+
+        .Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+        }
+
+        .Navbar a:active {
+            background-color:rgb(255, 85, 0);
+        }
+
+        .M_Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+        }
+
+        .M_Navbar a {
+            float:left;
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:14px;
+        }
+
+        .M_Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+        }
+
+        .M_Navbar a:active {
+            background-color:rgb(255, 85, 0);
+        }
+
+        a:link  {
+            color:rgb(255, 255, 255);
+            text-decoration:none;
+        }
+
+        a:visited   {
+            color:rgb(255, 255, 255);
+            text-decoration:none;
+        }
+
+     @media screen and (max-width: 650px)    { 
+        div.Title_Text {
+            scale:80%;
+        }
+        div.Logo {
+            display:none;
+        }
+
+        div.Desktop_Content {
+            display:none;
+        }
+    }
+    @media screen and (min-width: 651px)    {
+        div.M_Logo {
+            display:none;
+        }
+        div.Mobile_Content  {
+            display:none;
+        }
+    }
+    @media screen and (max-width: 450px)    {
+        div.Title_Text  {
+            scale:60%;
+        }
+
+        div.DNav   {
+            display:none;
+        }
+    }
+    @media screen and (min-width: 451px)    {
+        div.MNav    {
+            display:none;
+        }
+    }
+
+    .Desktop_Content    {
+        text-align:center;
+        font-size:20px;
+        font-weight:bold;
+        color:rgb(255, 255, 255);
+        line-height:2em;
+    }
+
+    .Mobile_Content     {
+        text-align:center;
+        font-size:20px;
+        font-weight:bold;
+        color:rgb(255, 255, 255);
+        line-height:2em;
+    }
