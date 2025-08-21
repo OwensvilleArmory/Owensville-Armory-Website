@@ -1,0 +1,155 @@
+body {
+            margin:0;
+           font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .Header {
+            display:flex;
+            align-items:center;
+            padding-bottom:8px;
+            padding-left:8px;
+            padding-top:8px;
+        }
+
+        .Footer {
+            text-align:center;
+        }
+
+        .Hours  {
+            line-height:.7em;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: rgb(255, 105, 0); 
+            border-radius: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(255, 85, 0);
+        }
+
+        .Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+        }
+
+        .Navbar a {
+            float:left;
+            border-right:2px solid rgb(0,0,0);
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:17px;
+        }
+
+        .Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+        }
+
+        .Navbar a:active {
+            background-color:rgb(255, 85, 0);
+        }
+
+        .M_Navbar {
+            overflow: hidden;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255)
+        }
+
+        .M_Navbar a {
+            float:left;
+            color:rgb(255, 255, 255);
+            text-align:center;
+            padding:14px 18px;
+            text-decoration:none;
+            font-size:14px;
+        }
+
+        .M_Navbar a:hover {
+            background-color:rgb(255, 85, 0);
+        }
+
+        .M_Navbar a:active {
+            background-color:rgb(255, 85, 0);
+        }
+
+    .Banner {
+        background-color:rgb(255, 105, 0);
+        text-align:center;
+        color:white;
+        font-weight:bold;
+        font-size:30px;
+        margin-top:30px;
+        margin-bottom:40px;
+        padding-top:10px;
+    }
+
+    .New_Title {
+         color:rgb(255, 85, 0);
+         font-weight:bolder;
+         font-size:40px;
+         justify-self:center;
+         margin:10px;
+    }
+  
+    .Bottom_Notifier {
+        color:rgb(255, 85, 0);
+        font-weight:bolder;
+        font-size:40px;
+        text-align:center;
+        justify-self:center;
+    }
+
+     @media screen and (max-width: 650px)    { 
+        div.Title_Text {
+            scale:80%;
+        }
+        div.Logo {
+            display:none;
+        }
+        div.New_Caption    {
+            font-size:20px;
+        }
+        div.New_Description    {
+            font-size:16px;
+        }
+    }
+    @media screen and (min-width: 651px)    {
+        div.M_Logo {
+            display:none;
+        }
+    }
+    @media screen and (max-width: 450px)    {
+        div.Title_Text  {
+            text-wrap-mode:nowrap;
+            margin-left:-20px;
+        }
+
+        div.DNav   {
+            display:none;
+        }
+        .New_Title {
+            font-size:30px;
+        }
+
+        .Bottom_Notifier {
+            scale:80%;
+        }
+
+        .Body_Text  {font-size:12px;}
+
+        div.New_Caption   {font-size:12px;}
+
+        div.New_Description  {font-size:10px;}
+        }
+    @media screen and (min-width: 451px)    {
+        div.MNav    {
+            display:none;
+        }
+    }
