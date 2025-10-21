@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Creator - Owensville Armory</title>
+    <link rel="stylesheet" href="css/quote_generator.css">
+    
+  </head>
+  <body>
+
+    <div class="Store">
+    <img class="Logo" src="Logo.png">
+    <span>
+    <p>Owensville Armory</p>
+    <p">1210 W. Highway 28, Owensville</p>
+    <p>Call or text 573-241-1794</p>
+    </span>
+    </div>
+
+    <div class="Main">
+      <input class="Brand" type="text" value="" placeholder="Manufacturer"><br>
+      <input class="Model" type="text" value="" placeholder="Model"><br>
+      <input class="Caliber" type="text" value="" placeholder="Caliber"><br>
+        
+      <!--<input class="Price" type="text" value="Price: $"><br>
+      <input class="MSRP" type="text" value="MSRP: $"><br>-->
+    </div>
+
+    <div id="dropzone" class="ImageDrop"></div>
+    <p style="display:none;">https://www.lipseys.com/itemdetail?itemno=SI365XF9BFO</p>
+
+    <div class="Main">
+      <input class="Price" type="text" value="Price: $"><br>
+      <input class="MSRP" type="text" value="MSRP: $" onchange="printForm();"><br>
+    </div>
+
+    <div class="Quote_Length">
+      <p>Quote good until: </p></br>
+      <p class="Date" id="Date"></p>
+    </div>
+
+    <script src="scripts/quote_generator.js"></script>
+
+  </body>
+</html>
