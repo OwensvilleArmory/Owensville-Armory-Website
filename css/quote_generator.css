@@ -1,0 +1,77 @@
+      .Main {
+        margin-left:30px;
+        margin-top:5px;
+      }
+
+      .Store {
+        display:flex;
+        align-items:center;
+        font-size:25px;
+        line-height:60%;
+      }
+
+      .Logo {
+        align-content:left;
+        width:300px;
+        padding-right:70px;
+      }
+      
+      .Brand {
+        font-size:40px;
+        font-weight:bold;
+        margin-top:40px;
+        margin-bottom:16px;
+        border:0px;
+        outline:0px;
+      }
+      
+      .Model {
+        font-size:35px;
+        margin-bottom:16px;
+        border:0px;
+        outline:0px;
+      }
+
+      .Caliber {
+        font-size:30px;
+        margin-bottom:16px;
+        border:0px;
+        outline:0px;
+      }
+
+      .Price {
+        font-size:45px;
+        font-weight:bold;
+        margin-bottom:16px;
+        border:0px;
+        outline:0px;
+      }
+
+       .MSRP {
+        font-size:30px;
+        font-weight:bold;
+        margin-bottom:16px;
+        border:0px;
+        outline:0px;
+      }
+
+      .ImageDrop {
+        margin-left:30px;
+        width: 500px;
+        height:400px;
+        border: 1px solid #aaaaaa;
+        justify-content:center;
+        
+      }
+
+      .Quote_Length {
+        padding-left:60%;
+        margin-top:-200px;
+        font-size:40px;
+        font-weight:bold;
+        text-align:center;
+      }
+
+      .Date {
+        margin-top:-50px;
+      }
