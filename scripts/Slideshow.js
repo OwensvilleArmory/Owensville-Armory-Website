@@ -2,14 +2,15 @@ const SlideQuery = document.querySelector('.Image');
         
 const ImgArray = [
   "https://owensvillearmory.com/Featured_Products/ATI_3B.png",
+  "https://owensvillearmory.com/Featured_Products/RXM_FLAG.png",
   "https://owensvillearmory.com/Featured_Products/MPA_Defender.png",
   "https://owensvillearmory.com/Featured_Products/Diamondback_DBX57.png",
   "https://owensvillearmory.com/Featured_Products/Ruger_10-22_Sporter.png",
   //"https://owensvillearmory.com/Featured_Products/MAC_5.png",
   //"https://owensvillearmory.com/Featured_Products/Rossi_R92_1776.png",
-  "https://owensvillearmory.com/Featured_Products/LongGuns.png",
+  //"https://owensvillearmory.com/Featured_Products/LongGuns.png",
   "https://owensvillearmory.com/Featured_Products/Shark_Coast_Trump_Rifle.png",
-  "https://owensvillearmory.com/Featured_Products/Howa_M1500_Stakler_CF.png",
+  //"https://owensvillearmory.com/Featured_Products/Howa_M1500_Stakler_CF.png",
   //"https://owensvillearmory.com/Featured_Products/Desert_Eagle_L5.png",
 ]
 
