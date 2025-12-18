@@ -2,7 +2,7 @@ const SlideQuery = document.querySelector('.Image');
         
 const ImgArray = [
   "https://owensvillearmory.com/Featured_Products/Christmas_Savings.png",
-  //"https://owensvillearmory.com/Featured_Products/Atrius_FRT.png",
+  "https://owensvillearmory.com/Featured_Products/Atrius Development Group FRS.png",
   "https://owensvillearmory.com/Featured_Products/10-22_Christmas_Bundle.png",
   "https://owensvillearmory.com/Featured_Products/ATI_3B.png",
   "https://owensvillearmory.com/Featured_Products/RXM_FLAG.png",
