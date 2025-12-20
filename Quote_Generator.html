@@ -17,28 +17,32 @@
     <p>Call or text 573-241-1794</p>
     </span>
     </div>
+ 
 
-    <div class="Main">
-      <input class="Brand" type="text" value="" placeholder="Manufacturer"><br>
-      <input class="Model" type="text" value="" placeholder="Model"><br>
-      <input class="Caliber" type="text" value="" placeholder="Caliber"><br>
-        
-      <!--<input class="Price" type="text" value="Price: $"><br>
-      <input class="MSRP" type="text" value="MSRP: $"><br>-->
-    </div>
 
-    <div id="dropzone" class="ImageDrop"></div>
-    <p style="display:none;">https://www.lipseys.com/itemdetail?itemno=SI365XF9BFO</p>
+    <form class="inputForm" action="data/quote_Submit.php">
+      <input class="Brand" name="Brand" type="text" value="" placeholder="Manufacturer"><br>
+      <input class="Model" name="Model" type="text" value="" placeholder="Model"><br>
+      <input class="Caliber" name="Caliber" type="text" value="" placeholder="Caliber"><br>
 
-    <div class="Main">
-      <input class="Price" type="text" value="Price: $"><br>
-      <input class="MSRP" type="text" value="MSRP: $" onchange="printForm();"><br>
-    </div>
+      <input class="upc" id="upc" name="upc" type="text" value="" placeholder="UPC"><br>
+      <div id="dropzone" class="ImageDrop"></div>
+      <input class="Price" type="text" value="" placeholder="Price: $" onchange="printForm();"><br><!--Price: $-->
+
+      <!--<button class="btn" type="submit" onsubmit="printForm();">Submit</button>-->
+    </form>
+
+    
+
+    
 
     <div class="Quote_Length">
       <p>Quote good until: </p></br>
       <p class="Date" id="Date"></p>
     </div>
+
+    <p class="Code"></p>
+    <a href="" class="Download"></a>
 
     <script src="scripts/quote_generator.js"></script>
 
