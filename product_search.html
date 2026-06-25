@@ -11,9 +11,97 @@
   <body>
 
       <div class="Main">
+
         <input class="Input" type="text" value="" placeholder="Enter Search Term Here" onchange="updateInput();">
         
+         <!---->
+        <div class="selectBoxContainer">
+          <div class="selectBox"> <!-- Lipsey's -->
+            <div class="selectBox2" onclick="toggleLipsey()">
+              <img class="logo" src="Images/Lipsey.png" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="Lipsey" value="Lipsey" checked/>
+          </div> <!-- Lipsey's End -->
+          <div class="selectBox"> <!-- RSR -->
+            <div class="selectBox2" onclick="toggleRSR()">
+              <img class="logo" src="Images/RSR_Group.png" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="RSR" Value="RSR" checked/>
+          </div> <!-- RSR End -->
+          <div class="selectBox"> <!-- Sports South -->
+            <div class="selectBox2" onclick="toggleSS()">
+              <img class="logo" src="Images/Sports_South.png" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="Sports_South" Value="Sports_South" checked/>
+          </div> <!-- Sports South End -->
+          <div class="selectBox"> <!-- Iron Valley -->
+            <div class="selectBox2" onclick="toggleValley()">
+              <img class="logo" src="Images/Iron_Valley.png" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="Iron_Valley" Value="Iron_Valley" checked/>
+          </div> <!-- Iron Valley End -->
+          <div class="selectBox"> <!-- Chattanooga -->
+            <div class="selectBox2" onclick="toggleChattanooga()">
+              <img class="logo" src="Images/Chattanooga.png" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="Chattanooga" Value="Chattanooga" checked/>
+          </div> <!-- Chattanooga End -->
+        </div>  <!-- END OF Select Box Container -->
+        <div class="selectBoxContainer2">
+          <div class="selectBox"> <!-- Zander's -->
+            <div class="selectBox2" onclick="toggleZanders()">
+              <img class="logo" src="Images/Zanders.jpg" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="Zanders" Value="Zanders" checked/>
+          </div> <!-- Zander's End -->
+          <div class="selectBox"> <!-- MGE -->
+              <div class="selectBox2" onclick="toggleMGE()">
+                <img class="logo" src="Images/MGE.jpg" alt="" draggable="false">
+              </div>
+              <input type="checkbox" id="MGE" Value="MGE"/>
+          </div> <!-- MGE End -->
+          <div class="selectBox"> <!-- Countrywide -->
+            <div class="selectBox2" onclick="toggleCountrywide()">
+              <img class="logo" src="Images/Countrywide.png" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="Countrywide" Value="Countrywide"/>
+          </div> <!-- Countrywide End -->
+          <div class="selectBox"> <!-- CWS -->
+            <div class="selectBox2" onclick="toggleCWS()">
+              <img class="logo" src="Images/CWS.jpg" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="CWS" Value="CWS"/>
+          </div> <!-- CWS End -->
+          <div class="selectBox"> <!-- Orion -->
+            <div class="selectBox2" onclick="toggleOrion()">
+              <img class="logo" src="Images/Orion.png" alt="" draggable="false">
+            </div>
+            <input type="checkbox" id="Orion" Value="Orion"/>
+          </div> <!-- Orion End -->
+        </div>
+        <div class="globalFilters">
+            <input type="checkbox" id="Firearm" Value="Firearm"/> <!-- Firearm -->
+            <div class="selectBoxFilters">
+            <div class="selectBox2" onclick="toggleFirearm()">
+             <p class="text">Firearm</p>
+            </div>
+          </div> <!-- Firearm End -->
+          <input type="checkbox" id="Ammo" Value="Ammo"/> <!-- Ammo -->
+            <div class="selectBoxFilters">
+            <div class="selectBox2" onclick="toggleAmmo()">
+             <p class="text">Ammo</p>
+            </div>
+          </div> <!-- Ammo End -->
+           <input type="checkbox" id="Other" Value="Other"/> <!-- Other -->
+            <div class="selectBoxFilters">
+            <div class="selectBox2" onclick="toggleOther()">
+             <p class="text">Other</p>
+            </div>
+          </div> <!-- Other End -->
+        </div>
       </div>
+        <!---->
+
 
       <script src="scripts/product_search.js"></script>
   </body>
