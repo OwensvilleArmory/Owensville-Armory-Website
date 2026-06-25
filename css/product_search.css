@@ -1,13 +1,105 @@
       .Main {
+        font-family:Arial, Helvetica, sans-serif;
         margin-left:10px;
         margin-top:5px;
+        /*overflow:hidden;*/
+      }
+
+      .selectBoxContainer,.selectBoxContainer2 {
+        display:flex;
+        margin-top:100px;
+
+        font-size: 2rem;
+        /*font-family: system-ui, sans-serif;*/
+      }
+        
+      .selectBox {
+        position:relative;
+        width:140px;
+        height:140px;
+        display:grid;
+        align-items:center;
+        align-content:center;
+        align-self:center;
+        margin-left:80px;
+      }
+
+       .selectBox2 {
+        position:inherit;
+        width:inherit;
+        height:inherit;
+        display:inherit;
+        align-items:inherit;
+        align-content:inherit;
+        align-self:inherit;
+        font-size:30px;
+        text-align:center;
+        border:3px solid black;
+        border-radius:16px;
+        user-select: none;
+      }
+
+      .logo {
+        width:inherit;
+        user-select:none;
+        z-index:-1;
+        width:inherit;
+      }
+
+      .selectBoxContainer input[type="checkbox"]  {
+        position:absolute;
+        left:44%;
+        margin-top:215px;
+        scale:250%;
+      }
+
+      .selectBoxContainer2 input[type="checkbox"]  {
+        position:absolute;
+        left:44%;
+        margin-top:215px;
+        scale:250%;
       }
       
       .Input {
         font-size:40px;
         font-weight:bold;
         margin-top:40px;
-        margin-bottom:16px;
+        margin-bottom:1px;/*16px*/
         border:0px;
         outline:0px;
+      }
+
+      /*.ZandersBox {
+        margin-top:250px;
+      }
+
+      .ZandersBox input[type="checkbox"] {
+        margin-top:155%;
+      }*/
+
+      .selectBoxFilters {
+        position:relative;
+        width:140px;
+        height:140px;
+        display:grid;
+        align-items:center;
+        align-content:center;
+        align-self:center;
+        margin-left:80px;
+
+         margin-right:6%;
+      }
+
+      .globalFilters {
+        display:flex;
+        margin-top:100px;
+        font-weight:bold;
+      }
+
+      .globalFilters  input[type="checkbox"]  {
+        /*margin-left:25px;*/
+        margin:0 0 0 5%;
+        align-items:center;
+        justify-self:center;
+        scale:250%;
       }
