@@ -3,7 +3,6 @@ const SlideQuery = document.querySelector('.Image');
 const ImgArray = [
   //"https://owensvillearmory.com/Featured_Products/Atrius Development Group FRS.png",
   //"https://owensvillearmory.com/Featured_Products/Taurus_1911.png",
-  "https://owensvillearmory.com/Featured_Products/4th_of_July_Flyer_2026.png",
   "https://owensvillearmory.com/Featured_Products/Heritage _44_SALE.png",
   "https://owensvillearmory.com/Featured_Products/ATI_3B.png",
   "https://owensvillearmory.com/Featured_Products/RXM_FLAG.png",
