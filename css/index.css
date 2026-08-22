@@ -79,6 +79,26 @@ body {
             background-color:rgb(255, 85, 0);
         }
 
+        .MobileBanner {
+            width:100%;
+            height: 50px;
+            display:inline-block;
+            text-align:center;
+            align-content:center;
+            background-color:rgb(255, 105, 0);
+            color:rgb(255,255,255);
+            border-radius:8px;
+            font-size:22px;
+            font-weight:bold;
+            text-decoration:none;
+        }
+
+        .MobileBannerNotice {
+            display:inline;
+            margin-right:5%;
+            color:rgb(0, 230, 0)
+        }
+
     .Banner {
         background-color:rgb(255, 105, 0);
         text-align:center;
@@ -122,6 +142,9 @@ body {
     }
     @media screen and (min-width: 651px)    {
         div.M_Logo {
+            display:none;
+        }
+        .MobileBanner {
             display:none;
         }
     }
