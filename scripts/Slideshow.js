@@ -1,6 +1,11 @@
 const SlideQuery = document.querySelector('.Image');
         
 const ImgArray = [
+  /* 
+  "https://owensvillearmory.com/Featured_Products/Pioneer_Arms_Hellpup_Pro.png",
+  "https://owensvillearmory.com/Featured_Products/Ruger_Harrier_A2.png",
+  "https://owensvillearmory.com/Featured_Products/Henry_H1_Classic.png",
+  */
   "https://owensvillearmory.com/Featured_Products/Taurus_GX2.png",
   //"https://owensvillearmory.com/Featured_Products/Atrius Development Group FRS.png",
   "https://owensvillearmory.com/Featured_Products/Taurus_1911.png",
@@ -11,7 +16,7 @@ const ImgArray = [
   //"https://owensvillearmory.com/Featured_Products/Ruger_10-22_Sporter.png",
   "https://owensvillearmory.com/Featured_Products/MAC_5.png",
   //"https://owensvillearmory.com/Featured_Products/LongGuns.png",
-  //"https://owensvillearmory.com/Featured_Products/Howa_M1500_Stakler_CF.png",
+  "https://owensvillearmory.com/Featured_Products/Howa_M1500_Stakler_CF.png",
   "https://owensvillearmory.com/Featured_Products/Desert_Eagle_L5.png",
 ]
 
