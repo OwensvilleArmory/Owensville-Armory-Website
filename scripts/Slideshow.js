@@ -1,6 +1,9 @@
 const SlideQuery = document.querySelector('.Image');
         
 const ImgArray = [
+  /*"https://owensvillearmory.com/Featured_Products/Ruger_LCP_Max_250th.png",
+  "https://owensvillearmory.com/Featured_Products/Shadow_Systems_CR920_Elite.png",
+  "https://owensvillearmory.com/Featured_Products/Ruger_RXM_Threaded_Blk.png",*/
   "https://owensvillearmory.com/Featured_Products/Pioneer_Arms_Hellpup_Pro.png",
   "https://owensvillearmory.com/Featured_Products/Ruger_Harrier_A2.png",
   "https://owensvillearmory.com/Featured_Products/Henry_H1_Classic.png",
